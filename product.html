@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shop - Andrea’s World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Andrea's World</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Shop</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-list">
+      <h2>Shop Our Latest Styles</h2>
+      <div class="products">
+        <!-- Product 1 -->
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1602810318690-f34d36348a58?auto=format&fit=crop&w=400&q=80" alt="Ankara Gown">
+          <h3>Ankara Gown</h3>
+          <p>₦15,000</p>
+          <button onclick="addToCart('Ankara Gown', 15000)">Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1621469438734-dc6ae59d2b97?auto=format&fit=crop&w=400&q=80" alt="Casual Jumpsuit">
+          <h3>Casual Jumpsuit</h3>
+          <p>₦12,500</p>
+          <button onclick="addToCart('Casual Jumpsuit', 12500)">Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1585386959984-a415522e3f8e?auto=format&fit=crop&w=400&q=80" alt="Men's Senator Wear">
+          <h3>Men's Senator Wear</h3>
+          <p>₦20,000</p>
+          <button onclick="addToCart('Men\'s Senator Wear', 20000)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Andrea's World. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
